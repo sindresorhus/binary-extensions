@@ -15,8 +15,8 @@
   "scripts": {
     "test": "node test.js"
   },
+  "main": "binary-extensions.json",
   "files": [
-    "index.js",
     "binary-extensions.json"
   ],
   "keywords": [
