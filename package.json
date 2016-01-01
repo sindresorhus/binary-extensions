@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "ava"
   },
   "main": "binary-extensions.json",
   "files": [
@@ -31,6 +31,6 @@
     "array"
   ],
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "*"
   }
 }

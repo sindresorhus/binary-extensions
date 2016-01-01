@@ -1,9 +1,7 @@
-'use strict';
-var test = require('ava');
-var binaryExtensions = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(Array.isArray(binaryExtensions));
-	t.assert(binaryExtensions.length > 0);
-	t.end();
+test(t => {
+	t.true(Array.isArray(m));
+	t.true(m.length > 0);
 });
