@@ -31,6 +31,6 @@
     "array"
   ],
   "devDependencies": {
-    "ava": "*"
+    "ava": "0.16.0"
   }
 }
