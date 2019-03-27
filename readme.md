@@ -30,4 +30,4 @@ console.log(binaryExtensions);
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com), Paul Miller (https://paulmillr.com)
