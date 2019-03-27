@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from '.';
+import binaryExtensions from '.';
 
-test(t => {
-	t.true(Array.isArray(m));
-	t.true(m.length > 0);
+test('main', t => {
+	t.true(Array.isArray(binaryExtensions));
+	t.true(binaryExtensions.length > 0);
 });
