@@ -10,14 +10,16 @@
 		"url": "sindresorhus.com"
 	},
 	"engines": {
-		"node": ">=0.10.0"
+		"node": ">=8"
 	},
 	"scripts": {
-		"test": "ava"
+		"test": "xo && ava && tsd"
 	},
-	"main": "binary-extensions.json",
 	"files": [
-		"binary-extensions.json"
+		"index.js",
+		"index.d.ts",
+		"binary-extensions.json",
+		"binary-extensions.json.d.ts"
 	],
 	"keywords": [
 		"bin",
@@ -31,6 +33,8 @@
 		"array"
 	],
 	"devDependencies": {
-		"ava": "0.16.0"
+		"ava": "^1.4.1",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
 	}
 }
