@@ -22,9 +22,7 @@
 		"binary-extensions.json.d.ts"
 	],
 	"keywords": [
-		"bin",
 		"binary",
-		"ext",
 		"extensions",
 		"extension",
 		"file",
