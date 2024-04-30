@@ -13,7 +13,7 @@ npm install binary-extensions
 ## Usage
 
 ```js
-const binaryExtensions = require('binary-extensions');
+import binaryExtensions from 'binary-extensions';
 
 console.log(binaryExtensions);
 //=> ['3ds', '3g2', …]
@@ -21,5 +21,5 @@ console.log(binaryExtensions);
 
 ## Related
 
-- [is-binary-path](https://github.com/sindresorhus/is-binary-path) - Check if a filepath is a binary file
+- [is-binary-path](https://github.com/sindresorhus/is-binary-path) - Check if a file path is a binary file
 - [text-extensions](https://github.com/sindresorhus/text-extensions) - List of text file extensions

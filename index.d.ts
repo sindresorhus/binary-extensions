@@ -3,7 +3,7 @@ List of binary file extensions.
 
 @example
 ```
-import binaryExtensions = require('binary-extensions');
+import binaryExtensions from 'binary-extensions';
 
 console.log(binaryExtensions);
 //=> ['3ds', '3g2', …]
@@ -11,4 +11,4 @@ console.log(binaryExtensions);
 */
 declare const binaryExtensions: readonly string[];
 
-export = binaryExtensions;
+export default binaryExtensions;

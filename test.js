@@ -1,5 +1,5 @@
 import test from 'ava';
-import binaryExtensions from '.';
+import binaryExtensions from './index.js';
 
 test('main', t => {
 	t.true(Array.isArray(binaryExtensions));

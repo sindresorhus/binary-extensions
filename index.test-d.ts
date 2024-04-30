@@ -1,6 +1,4 @@
 import {expectType} from 'tsd';
-import binaryExtensions = require('.');
-import binaryExtensionsJson = require('./binary-extensions.json');
+import binaryExtensions from './index.js';
 
 expectType<readonly string[]>(binaryExtensions);
-expectType<readonly string[]>(binaryExtensionsJson);
